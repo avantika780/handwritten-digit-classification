@@ -1,0 +1,5 @@
+Model,Trainable params,Total params,Epochs run,Train time (s),Sec/epoch,Inference (ms/image)
+Baseline CNN,225034,225034,30,500.4,16.68,0.0857
+Proposed (BN + SE + Aug),226518,226710,30,940.2,31.34,0.1406
+LeNet-5,61706,61706,16,143.0,8.93,0.0363
+VGG-style CNN,467818,467818,10,608.1,60.81,0.2363

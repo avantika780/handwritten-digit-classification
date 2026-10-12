@@ -1,0 +1,3 @@
+Model,Epochs run,Best epoch (min val loss),Train acc @best (%),Val acc @best (%),Train-val acc gap (pp),Min val loss
+Baseline CNN,30,29,99.9,99.13,0.76,0.0401
+Proposed (BN + SE + Aug),30,26,98.94,99.05,-0.11,0.0487

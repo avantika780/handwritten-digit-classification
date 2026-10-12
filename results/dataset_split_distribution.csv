@@ -1,0 +1,5 @@
+Split,Samples,Percentage
+Train,54000,77.14
+Validation,6000,8.57
+Test,10000,14.29
+Total,70000,100.0

@@ -1,0 +1,9 @@
+Dataset  : MNIST handwritten digits (LeCun, Cortes & Burges)
+Source   : loaded automatically with tf.keras.datasets.mnist.load_data()
+           (original: http://yann.lecun.com/exdb/mnist/)
+Samples  : 70,000 grayscale images, 28 x 28 pixels (60,000 train + 10,000 test)
+Classes  : 10 (digits 0-9)
+Split    : 54,000 train / 6,000 validation / 10,000 test
+           (validation = stratified 10% of the official training set, random_state=42;
+            the official 10,000-image test set is untouched until final evaluation)
+The data is downloaded at run time; no dataset files are stored in this folder.

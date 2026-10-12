@@ -1,0 +1,5 @@
+Step,Parameters
+Train/validation split,"10% of the 60,000 training images, stratified, random_state=42"
+Pixel scaling,"uint8 [0,255] -> float32 [0,1] (divide by 255)"
+Reshape,"(N, 28, 28) -> (N, 28, 28, 1)"
+"Augmentation (proposed model, training data only)","rotation +/-10 deg, translation +/-10%, zoom +/-10%, black fill"

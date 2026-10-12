@@ -1,0 +1,10 @@
+Hyperparameter,Value
+Learning rate,0.001
+Batch size,64
+Number of epochs,"max 30 (early stopping, patience 5; ran 30 for proposed)"
+Optimizer,Adam
+Loss function,Sparse categorical cross-entropy
+Scheduler,"ReduceLROnPlateau (monitor=val_loss, factor=0.5, patience=2, min_lr=1e-5)"
+Dropout,0.3
+Weight decay,L2 = 0.001 on the Dense(128) kernel
+Other parameters,"Conv filters 32/64 (3x3), Dense 128, SE ratio 8, augmentation ±10° / ±10% shift / ±10% zoom, seeds [42]"

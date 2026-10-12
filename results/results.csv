@@ -1,0 +1,3 @@
+Model,Accuracy,Precision (macro),Precision (weighted),Recall (macro),Recall (weighted),F1 (macro),F1 (weighted),Specificity (macro),ROC-AUC (macro OvR),Test loss,Misclassified
+Baseline CNN,99.34,99.34,99.34,99.33,99.34,99.34,99.34,99.93,0.99997,0.0305,66
+Proposed (BN + SE + Aug),99.23,99.23,99.23,99.23,99.23,99.23,99.23,99.91,0.99997,0.0437,77

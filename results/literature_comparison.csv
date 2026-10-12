@@ -1,0 +1,6 @@
+Method,Reference,Reported accuracy (%),Notes
+LeNet-5,"LeCun et al., Proc. IEEE, 1998",99.05,"single CNN, no augmentation"
+Multi-column DNN,"Ciresan et al., CVPR, 2012",99.77,"committee of CNNs, augmentation"
+DropConnect,"Wan et al., ICML, 2013",99.79,ensemble of 5 networks
+CapsNet,"Sabour et al., NeurIPS, 2017",99.75,"capsule network, shift augmentation"
+Proposed (this work),-,99.23,"single model, no ensemble"

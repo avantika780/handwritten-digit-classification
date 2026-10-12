@@ -1,0 +1,10 @@
+Perturbation,Level,Baseline CNN acc (%),Proposed (BN + SE + Aug) acc (%)
+Clean,0.0,99.34,99.23
+Gaussian noise (sigma),0.1,99.31,95.29
+Gaussian noise (sigma),0.2,98.83,59.09
+Gaussian noise (sigma),0.3,95.24,21.27
+Rotation (deg),10.0,98.88,99.19
+Rotation (deg),20.0,96.5,98.0
+Rotation (deg),30.0,88.59,92.16
+Horizontal shift (px),2.0,97.82,99.17
+Horizontal shift (px),4.0,79.21,97.77
