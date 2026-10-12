@@ -145,7 +145,7 @@ Test set = 10,000 official MNIST test images. Figures: `figures/confusion_matrix
 
 [EDIT AFTER RUNNING — 3–4 sentences: convergence behaviour, train/val gap, whether the model over/under-fits, which digit pairs are confused most (see confusion matrix).]
 
-## 7. Comparative Analysis (CO4)
+## 7. Comparative Analysis 
 **(a) Models re-trained by me on the same dataset, same split, same hyperparameters, same test set** (`results/comparison.csv`; Precision/Recall/F1 are macro-averaged):
 
 <!--BEGIN:comparison-->
@@ -180,7 +180,7 @@ References
 
 [EDIT AFTER RUNNING — explain why the proposed model performs better / similarly / worse than each method: e.g. LeNet-5 is smaller and uses tanh + average pooling; the published top results use ensembles or much larger models, whereas the proposed model is a single ~0.23 M-parameter network.]
 
-## 8. Innovation (CO5)
+## 8. Innovation 
 **What is the innovation compared with the baseline / state-of-the-art?**
 The baseline CNN is extended with a combination of (A) batch normalisation, (B) squeeze-and-excitation channel attention and (C) geometric data augmentation, while keeping the network almost the same size (+0.7% parameters). BN stabilises and speeds up optimisation, SE lets the network re-weight feature channels, and augmentation targets the main real-world variation in handwriting (slant, position, scale). The contribution is evaluated with (i) an ablation study (single run, seed 42) including leave-one-out variants and (ii) a robustness study under noise, rotation and shift. Unlike most published MNIST gains, the improvement is obtained by a single small model rather than an ensemble.
 
